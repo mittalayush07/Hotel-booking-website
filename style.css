@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Navb{
+    margin: 5px 1px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px
+       
+}
+#Sign3{
+    margin: auto;
+}
+#Sign2{
+    margin-top: 10px;
+}
+
+
+#Sign1{
+    height: 1%;
+    width: 2.5%;
+    margin-right: 10px;
+    border: 1.5px solid rgb(246, 140, 140);
+    padding: 3px;
+    border-radius: 100%;
+}
+a{
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+       
+}
+#Navb a:hover{
+    background-color: rgb(222, 240, 240);
+}
+#navbar{
+    position: sticky;
+    height: 50px;
+    align-items: center;
+    
+}
+#navbar ul{
+    display: flex; 
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(234, 232, 229);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 13px;
+}
+#navbar ul li a{
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+#navbar ul li a:hover{
+    color: rgb(244, 156, 85);
+    background-color: rgb(250, 246, 246);
+
+}
+#home{
+    display: flex;
+    height: 300px;        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('img/Home3.jpeg') no-repeat center center/cover;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    margin-top: 173px;
+}
+#home h1{
+    font-size: 3rem;
+    color:rgb(254, 13, 13);
+    text-align: center;
+    padding: 5px;
+    }
+#home p{
+    font-size: 2rem;
+    color: rgb(69, 34, 34);
+    text-align: center;
+    padding: 1px;
+    font-family: 'BalooBhai2',Regular;
+    }
+#form{
+    margin-top: 177px;
+    background-color: rgb(197, 244, 247);
+    padding: 10px 2px;
+}
+#form h1{
+    align-items: center;
+    text-align: center;
+}
+#form-box form{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+.form-group{
+    padding: 5px;
+    margin: 2px;
+    
+}
+.form-group input{
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid rgb(248, 248, 6);
+    border-radius:5px ;
+}
+.form-group input:hover{
+    background-color: rgb(249, 245, 239);
+    border-color: yellowgreen;
+}
+#form-group1 input{
+    padding: 5px 40px;
+    background-color: rgb(248, 85, 10);
+    border-radius: 15px;
+    font-size: 23px;
+    color: white;
+    border: 5px solid rgb(248, 248, 6);
+}
+#form-group1 input:hover{
+    background-color: rgb(247, 23, 11);
+    border-color: rgb(239, 239, 57);
+}
+#Facility{
+    background-color: rgb(245, 234, 234);
+    margin: 0px 1px;
+    padding: 1px;
+}
+#f{
+    display: flex;
+    margin: 10px 2px;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+#f .box{
+    margin: 4px;
+    padding: 4px;
+}
+#f .box h2{
+    text-align: center;
+    padding: 4px;
+    margin: 4px;       
+}
+#f .box p{
+    text-align: center;
+    padding: 4px;
+    margin: 2px; 
+    font-size: 1.1em;
+}
+#Explore{
+    margin: 0px 5px;
+    padding: 10px 5px;
+    background-color: aliceblue;
+}
+#Ex{
+    display: flex;
+}
+#Exp{
+    margin-left: 650px;
+}
+#Explore h1{
+    margin: 5px;
+    
+}
+#Explore p{
+    margin: 5px ;
+    
+    font-size: 1.2rem;
+}
+#E{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+.Explore-items img{
+    width:95%;
+    border: 0.5px solid black;
+    }
+#E .Explore-items{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#e{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+#e .Explore-items{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#properties{
+    margin: 0px 5px;
+    padding: 10px 5px;
+    background-color: rgb(235, 247, 232);
+}
+#properties h1{
+    margin: 5px;
+}
+#p{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+.properties-items img{
+    width:95%;
+    border: 0.5px solid black;
+}
+#p .properties-items{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#Explore2{
+    margin: 0px 5px;
+    padding: 10px 5px;
+    background-color: aliceblue;
+}
+#Ex2{
+    display: flex;
+}
+#Exp2{
+    margin-left: 650px;
+}
+#Explore2 h1{
+    margin: 5px;
+    
+}
+#Explore2 p{
+    margin: 5px ;
+    
+    font-size: 1.2rem;
+}
+#E2{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+.Explore-items2 img{
+    width:95%;
+    border: 0.5px solid black;
+    }
+#E2 .Explore-items2{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#e2{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+#e2 .Explore-items2{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#properties2{
+    margin: 0px 5px;
+    padding: 10px 5px;
+    background-color: rgb(249, 249, 229);
+}
+#properties2 h1{
+    margin: 5px;
+}
+#p2{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+} 
+.properties-items2 img{
+    width:95%;
+    border: 0.5px solid black;
+}
+#p2 .properties-items2{
+    margin: 4px 1px;
+    padding: 1px;
+}
+#travel{
+    margin: 0px 5px;
+    padding: 10px 5px;
+    background-color: white;
+}
+#travel h1{
+    margin: 5px;
+}
+#tr{
+    display: flex;
+    margin: 10px 1px;
+    align-items: left;
+    justify-content: left;
+}
+.tr-items img{
+    width: 100%;
+    border: 0.5px solid black;
+}
+#tr .tr-items{
+    margin: 4px 4px;
+    padding: 1px;
+}
+footer{
+    background:white;
+    color: black;
+    padding:12px 40px;
+    margin-top: 2px;
+    position: relative;
+}
+#center{
+    background:white;
+    color: black;
+    padding:10px 80px;
+    margin-top: 2px;
+    position: relative;
+    text-align: center;
+}
+#en{
+    display: flex;
+    margin: 10px 1px;
+    align-items: center; 
+    justify-content: center;
+    background-color: white;
+} 
+#en .en-items{
+    margin: 4px 14px;
+    padding: 5px;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/Signup3.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position:relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.chech-box{
+    margin: 30px 10px 30px 0px;    
+}
+.chech-box span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;    
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
